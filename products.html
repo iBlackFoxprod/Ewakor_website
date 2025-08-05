@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produits – Ewakor</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">Ewakor</a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="products.html">Produits</a>
+        <a href="about.html">À propos</a>
+        <a href="partners.html">Partenaires</a>
+        <a href="contact.php">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image:none;background:#005baf;color:#ffffff;">
+    <h1>Nos Produits</h1>
+    <p>Découvrez nos gammes de lubrifiants et graisses Olipes.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card-grid">
+        <!-- Placeholder product cards -->
+        <div class="card">
+          <img src="assets/img/placeholder.jpg" alt="Produit 1" />
+          <div class="card-content">
+            <h3>Huile Moteur 5W30</h3>
+            <p>Lubrifiant synthétique haute performance.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/placeholder.jpg" alt="Produit 2" />
+          <div class="card-content">
+            <h3>Graisse Multi-usage</h3>
+            <p>Protection longue durée pour roulements.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/placeholder.jpg" alt="Produit 3" />
+          <div class="card-content">
+            <h3>Fluide Hydraulique</h3>
+            <p>Stabilité optimale et anti-usure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Téléphone : <a href="tel:+212600000000">+212 6 xx xx xx xx</a> | Email : <a href="mailto:ewakor.fourniture@gmail.com">ewakor.fourniture@gmail.com</a></p>
+      <p>Km 10 Route de Casablanca, Marrakech, Maroc</p>
+      <div>
+        <a href="#">LinkedIn</a> · <a href="#">Facebook</a>
+      </div>
+      <p style="margin-top:1rem;">© <span id="year"></span> Ewakor. Tous droits réservés.</p>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
